@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import SwiftUI
 
 class MovieViewModel: ObservableObject {
     @Published var movieList: [MovieModel]
