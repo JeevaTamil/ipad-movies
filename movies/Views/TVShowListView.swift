@@ -18,7 +18,6 @@ struct TVShowListView: View {
                 label: {
                     Text(tvShow.title)
                 })
-            
         }
         .navigationViewStyle(DoubleColumnNavigationViewStyle())
         .navigationTitle("TV Shows")
