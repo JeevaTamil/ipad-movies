@@ -19,7 +19,6 @@ struct MovieListView: View {
                     Text(movie.title)
                 })
         }
-        .navigationViewStyle(DoubleColumnNavigationViewStyle())
         .navigationTitle("Movies")
     }
 }
